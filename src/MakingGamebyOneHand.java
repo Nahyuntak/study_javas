@@ -1,4 +1,4 @@
-public class Quest {
+public class MakingGamebyOneHand {
     public static void main(String[] args) {
         String a = "1";
         String b = "2";
