@@ -19,8 +19,10 @@ public class SetWandGetVariable {
 
             if (b == 3) {
                 a = cb;
+            } else {
+                c = nb;
             } 
-             if (d == 9 ) {
+            if (d != 9 ) {
                 b = cd;
              } else {
                 b = nd;
