@@ -5,24 +5,30 @@ public class SetWandGetVariable {
             int b = 3;
             int c = 5;
             int d = 7;
-
+            int cb = 10;
+            int nb = 5;
+            int cd = 5;
+            int nd = 200;
+            int ca = 50;
+            int na = 30;
+            
             System.out.println(a);
             System.out.println(b);
             System.out.println(c);
             System.out.println(d);
 
             if (b == 3) {
-                a = 10;
+                a = cb;
             } 
              if (d == 9 ) {
-                b = c;
+                b = cd;
              } else {
-                b = 200;
+                b = nd;
              }
              if (a == 10) {
-                c = 50;
+                c = ca;
              } else {
-                d = 30;
+                d = na;
              }
             
              System.out.println(a);
