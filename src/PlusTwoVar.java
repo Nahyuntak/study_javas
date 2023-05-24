@@ -7,7 +7,7 @@ public class PlusTwoVar {
       int a = 0;
       int b = 0;
       a = myObj.nextInt(); // Read user input
-      b = myObj.nextInt(); // Read user input1
+      b = myObj.nextInt(); // Read user input
 
       System.out.println(a+b);  // Output user input
         // return 0;
