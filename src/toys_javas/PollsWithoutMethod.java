@@ -1,3 +1,5 @@
+package toys_javas;
+
 import java.util.Scanner;
 
 public class PollsWithoutMethod {
