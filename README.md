@@ -8,6 +8,6 @@
 | Print | Main.java | 화면에 문자 출력 |  |
 | If | Ifs.java | to specify a block of code to be executed, if a specified condition is true |  |
 | For | LoopFors.java | When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop |  |
-| 데이터 type 변환 | [ypeCasting.java](https://nahyuntak.github.io/study_javas/src/TypeCasting.java) | 데이터 타입을 변경 |  |
+| 데이터 type 변환 | [TypeCasting.java](https://nahyuntak.github.io/study_javas/src/TypeCasting.java) | 데이터 타입을 변경 |  |
 // []: 설명, (): 링크
 ## JAVA 연습문제
