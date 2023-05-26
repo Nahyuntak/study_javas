@@ -10,5 +10,6 @@
 | 데이터 type 변환 | [TypeCasting.java](https://nahyuntak.github.io/study_javas/src/TypeCasting.java) | 데이터 타입을 변경 |  |
 | If | [Ifs.java](./src/Ifs.java) | 조건에 따라 분기 |  |
 | Break | [Breaks.java](./src/Breaks.java) | 루프 탈출 문법 |  |
+| Item 계산 | [CasherFor.java](./src/cases/CasherFor.java) | 장바구니에 담긴 item 계산 |  |
 
 ## JAVA 연습문제
