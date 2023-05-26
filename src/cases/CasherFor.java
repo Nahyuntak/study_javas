@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CasherFor {
     public static void main(String[] args) {
         try{
-            Scanner myObj = new Scanner(System.in);
+            Scanner myObj = new Scanner(System.in); // 입력장치 
             int[] cart = new int[5]; // 장바구니 배열
             int total = 0; // 총합 변수
 
