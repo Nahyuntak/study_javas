@@ -8,9 +8,6 @@ public class Multiples {
         int A = myObj.nextInt();
         int B = myObj.nextInt();
 
-        System.out.println(A*(B%));
-        System.out.println(((a%c)+(b%c))%c);
-        System.out.println((a*b)%c);
-        System.out.println(abc*def);
+
     }
 }
