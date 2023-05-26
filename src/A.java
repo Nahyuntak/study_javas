@@ -20,23 +20,19 @@ public class A {
                 // 문자는 조건절에서 "=="에 동작하지 않는다.
                 // .equals("")로 문제해결 가능
 
-                if (answer.equals("S")){
+                if (answer.equals("S") || answer.equals("Statistic")){
                     System.out.println("-------설문 통계-------");
                     break;
-                } else if (answer.equals("Statistic")) {
-                    System.out.println("-------설문 통계-------");
-                    break;
-                } else if (answer.equals("P")) {
+                } else if (answer.equals("P") || answer.equals("Poll")) {
                     System.out.println("-------설문 시작-------"); 
                     break;
-                } else if (answer.equals("Poll")) {
-                    System.out.println("-------설문 시작-------");
+                }  else if (answer.equals("E") || answer.equals("Exit")) {
+                    System.out.println("-------설문 종료-------");
                     break;
-                } else if (answer.equals("E")) {
-                    System.out.println("-------설문 종료-------");
-                } else if (answer.equals("Exit")) {
-                    System.out.println("-------설문 종료-------");
+                }  else {
+                    System.out.println("-------처음으로 돌아갑니다. 다시 입력해주세요.-------");
                 }
+                System.out.println();
             }
 
 
