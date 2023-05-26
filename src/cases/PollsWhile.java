@@ -17,33 +17,31 @@ public class PollsWhile {
                 System.out.println("(S)tatistic: 설문 통계");
                 System.out.println();
                 System.out.print("선택 입력: ");
-                answer = myObj.nextLine(); // Read user input //입력값을 받아서 문자형 변수 answer로 사용
-    
-                // 문자는 조건절에서 "=="에 동작하지 않는다.
-                // .equals("")로 문제해결 가능
+                answer = myObj.nextLine();
+                System.out.println();
 
-                if (answer.equals("S") || answer.equals("Statistic")){
+                // If input S or Static, display the sentence "-------설문 xhdrP-------"
+                if (answer.equals("S") || answer.equals("Statistic")) {
                     System.out.println("-------설문 통계-------");
                     break;
-                } else if (answer.equals("P") || answer.equals("Poll")) {
-                    System.out.println("-------설문 시작-------"); 
+                } 
+                // If input P or Poll, display the sentence "-------설문 시작-------" 
+                else if (answer.equals("P") || answer.equals("Poll")) {
+                    System.out.println("-------설문 시작-------");
                     break;
-                }  else if (answer.equals("E") || answer.equals("Exit")) {
+                } 
+                // If input E or Exit, display the sentence "-------설문 종료-------" 
+                else if (answer.equals("E") || answer.equals("Exit")) {
                     System.out.println("-------설문 종료-------");
                     break;
-                }  else {
+                } 
+                // If incorrect input, it returns to the beginning 
+                else {
                     System.out.println("-------처음으로 돌아갑니다. 다시 입력해주세요.-------");
+                    System.out.println();
+                    continue;
                 }
-                System.out.println();
             }
-
-
-
-
-
-
-
-
 
         } catch (Exception e) {
             // TODO: handle exception
