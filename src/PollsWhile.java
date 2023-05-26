@@ -18,7 +18,7 @@ public class PollsWhile {
                 answer = myObj.nextLine();
                 System.out.println();
 
-                // If input S or Static, display the sentence "-------설문 xhdrP-------"
+                // If input S or Static, display the sentence "-------설문 통계-------"
                 if (answer.equals("S") || answer.equals("Statistic")) {
                     System.out.println("-------설문 통계-------");
                     break;
