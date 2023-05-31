@@ -15,7 +15,7 @@ public class Multiples {
          int digit2 = (A*((product/10) % 10)); // 백의 자리 수
          int digit3 = (A*((product/100) % 100)); // 천의 자리 수
 
-        
+        //
         System.out.println(digit1);
         System.out.println(digit2);
         System.out.println(digit3);
