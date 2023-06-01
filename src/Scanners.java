@@ -14,12 +14,13 @@ public class Scanners {
       //  second = myObj.nextInt(); // Read user input
       //  System.out.println(first +", "+ second);  // Output user input
 
-      int a = 0;
-      int b = 0;
-      a = myObj.nextInt(); // Read user input
-      b = myObj.nextInt(); // Read user input1
+      // int a = 0;
+      // int b = 0;
+      // a = myObj.nextInt(); // Read user input
+      // b = myObj.nextInt(); // Read user input1
 
-      System.out.println(a+b);  // Output user input
+      // System.out.println(a+b);  // Output user input
+      myObj.close(); // 자원 반납
         // return 0;
     }
 }
