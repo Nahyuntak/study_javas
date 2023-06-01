@@ -1,6 +1,8 @@
 public class GitConflicts {
     public static void main(String[] args) {
         try {
+            int first =2;
+            first = first + 1;
             int second =1;
             int first = 0;
             second = first + 1;
