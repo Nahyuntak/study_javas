@@ -72,10 +72,12 @@
 //             System.out.println();
 
 //         } catch (Exception e) {
-//             e.printStackTrace();
+//              // TODO: handle exception
 //         }
+//         // return 0;
 //     }
 // }
+
 
 
 // Methods 적용
@@ -92,8 +94,9 @@ public class MedicalCheckupWithoutDB {
             System.out.println();
 
         } catch (Exception e) {
-            e.printStackTrace();
+             // TODO: handle exception
         }
+        // return 0;
     }
 
     public static ArrayList<HashMap<String, String>> createMedicalCheckupData() {
