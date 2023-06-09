@@ -1,3 +1,4 @@
+// Methods 적용 전
 // import java.util.ArrayList;
 // import java.util.HashMap;
 
@@ -77,6 +78,7 @@
 // }
 
 
+// Methods 적용
 import java.util.ArrayList;
 import java.util.HashMap;
 
